@@ -16,5 +16,14 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string name = (textBox1.Text);
+            string name2 = (textBox2.Text);
+            string name3 = (name.ToString() + " " + name2.ToString() + " ");
+            textBox3.Text = name3.ToString(); 
+            
+        }
     }
 }
