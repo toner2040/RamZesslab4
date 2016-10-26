@@ -25,5 +25,15 @@ namespace WindowsFormsApplication1
             textBox3.Text = name3.ToString(); 
             
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string text = (textBox4.Text);
+            string text1 = (textBox5.Text);
+            string text3 = (text.ToString() + " " + text1.ToString() + " ");
+
+
+            textBox6.Text = text3.Substring(2); 
+        }
     }
 }
